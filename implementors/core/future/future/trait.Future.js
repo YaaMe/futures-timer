@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["futures_timer"] = [{text:"impl&lt;F&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/future/future/trait.Future.html\" title=\"trait core::future::future::Future\">Future</a> for <a class=\"struct\" href=\"futures_timer/ext/struct.Timeout.html\" title=\"struct futures_timer::ext::Timeout\">Timeout</a>&lt;F&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;F: <a class=\"trait\" href=\"https://rust-lang-nursery.github.io/futures-api-docs/0.3.0-alpha.17/futures_core/futures_core/future/trait.TryFuture.html\" title=\"trait futures_core::future::TryFuture\">TryFuture</a>,<br>&nbsp;&nbsp;&nbsp;&nbsp;F::<a class=\"type\" href=\"https://rust-lang-nursery.github.io/futures-api-docs/0.3.0-alpha.17/futures_core/futures_core/future/trait.TryFuture.html#associatedtype.Error\" title=\"type futures_core::future::TryFuture::Error\">Error</a>: <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/convert/trait.From.html\" title=\"trait core::convert::From\">From</a>&lt;<a class=\"struct\" href=\"https://doc.rust-lang.org/nightly/std/io/error/struct.Error.html\" title=\"struct std::io::error::Error\">Error</a>&gt;,&nbsp;</span>",synthetic:false,types:["futures_timer::ext::Timeout"]},{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/future/future/trait.Future.html\" title=\"trait core::future::future::Future\">Future</a> for <a class=\"struct\" href=\"futures_timer/struct.Delay.html\" title=\"struct futures_timer::Delay\">Delay</a>",synthetic:false,types:["futures_timer::delay::Delay"]},{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/future/future/trait.Future.html\" title=\"trait core::future::future::Future\">Future</a> for <a class=\"struct\" href=\"futures_timer/struct.Timer.html\" title=\"struct futures_timer::Timer\">Timer</a>",synthetic:false,types:["futures_timer::Timer"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
